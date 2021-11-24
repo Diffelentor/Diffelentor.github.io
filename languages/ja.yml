@@ -1,66 +1,77 @@
-common:
-    archive:
-        one: 'アーカイブ'
-        other: 'アーカイブ'
-    category:
-        one: 'カテゴリ'
-        other: 'カテゴリ'
-    tag:
-        one: 'タグ'
-        other: 'タグ'
-    post:
-        one: '投稿'
-        other: '投稿'
-    page:
-        one: 'ページ'
-        other: 'ページ'
-    prev: '前'
-    next: '次'
-widget:
-    follow: 'フォローする'
-    recents: '最近の記事'
-    links: 'リンク'
-    catalogue: 'カタログ'
-    subscribe_email: '更新を購読する'
-    subscribe: '購読する'
-    adsense: '広告'
-    followit: 'follow.it'
-article:
-    created_at: '%sに投稿'
-    updated_at: '%sに更新'
-    more: '続きを読む'
-    comments: 'コメント'
-    read_time: '%sで読む'
-    word_count:
-        one: '約%d語'
-        other: '約%d語'
-    licensing:
-        author: 'Author'
-        created_at: 'Posted on'
-        updated_at: 'Updated on'
-        licensed_under: 'Licensed under'
-donate:
-    title: 'この記事は気に入りましたか？ 著者をサポートする'
-    afdian: 'Afdian.net'
-    alipay: 'Alipay'
-    wechat: 'Wechat'
-    paypal: 'Paypal'
-    patreon: 'Patreon'
-    buymeacoffee: 'コーヒーを買って'
-plugin:
-    backtotop: 'トップに戻る'
-    visit_count: '%s回の訪問'
-    visitor_count: '%s人のユーザーがアクセス'
-    cookie_consent:
-      message: このウェブサイトはあなたの経験を改善するためにCookieを使用しています。
-      dismiss: 了解しました
-      allow: Cookiesを許可する
-      deny: 拒否する
-      link: もっと詳しく知る
-      policy: Cookieポリシー
-search:
-    search: '検索'
-    hint: '何かを入力してください...'
-    no_result: 'の結果はありません'
-    untitled: '(無題)'
-    empty_preview: '(プレビューなし)'
+# date format displayed everywhere in the blog
+date_format: "YYYY/MM/DD"
+
+global:
+    home: "ホーム"
+    categories: "カテゴリー"
+    category: "カテゴリー"
+    tags: "タグ"
+    tag: "タグ"
+    archives: "アーカイブ"
+    search: "検索"
+    about: "プロフィール"
+    author_picture: "著者の絵"
+    github: "GitHub"
+    stack_overflow: "Stack Overflow"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    google_plus: "Google Plus"
+    linkedin: "LinkedIn"
+    mail: "メール"
+    rss: "RSS"
+    share_on_facebook: "Facebookで共有"
+    share_on_twitter: "Twitterで共有"
+    share_on_google_plus: "Google+で共有"
+    share_on_weibo: "Weiboで共有"
+    share_on_qq: "QQで共有"
+    share_on_qzone: "Qzoneで共有"
+    share_on_renren: "Renrenで共有"
+    share_on_vk: "VKで共有"
+    share_on_odnoklassniki: "Odnoklassnikiで共有"
+    search_category: "カテゴリー検索"
+    search_tag: "タグ検索"
+    search_date: "日付検索 (YYYY/MM/DD)"
+    posts_found:
+        zero: "見つかりませんでした。"
+        one: "1件見つかりました。"
+        other: "{n} 件見つかりました。"
+    categories_found:
+        zero: "見つかりませんでした。"
+        one: "1件のカテゴリーが見つかりました。"
+        other: "{n} 件のカテゴリーが見つかりました。"
+    tags_found:
+        zero: "見つかりませんでした。"
+        one: "1件のタグが見つかりました。"
+        other: "{n} 件のタグが見つかりました。"
+    read_more_about_author: "著者についてもっと読む"
+    zoom_in_on_picture: "写真を拡大する"
+    go_to_homepage: "ホームページへ"
+    open_link: "リンクを開く"
+    open_post: "投稿を開く"
+
+pagination:
+    page: "page %d"
+    of: "of %d"
+    newer_posts: "新しい投稿"
+    older_posts: "古い投稿"
+    previous: "前"
+    next: "次"
+
+post:
+    no_title : "タイトルなし"
+    categorized_in: "カテゴリー"
+    tagged_in: "タグ"
+    toc: "目次"
+    read_more: "続きを読む"
+    go_to_website: "ウェブサイトへ"
+    comment_and_share: "コメント・シェア"
+    gallery: "ギャラリー"
+    image:
+        one: "偶像"
+        other: "%d イメージ"
+
+author:
+    # Your biography (Markdown and HTML supported)
+    bio: ""
+    # Your job
+    job: ""

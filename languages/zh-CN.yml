@@ -1,66 +1,78 @@
-common:
-    archive:
-        one: '归档'
-        other: '归档'
-    category:
-        one: '分类'
-        other: '分类'
-    tag:
-        one: '标签'
-        other: '标签'
-    post:
-        one: '文章'
-        other: '文章'
-    page:
-        one: '页面'
-        other: '页面'
-    prev: '上一页'
-    next: '下一页'
-widget:
-    follow: '关注我'
-    recents: '最新文章'
-    links: '链接'
-    catalogue: '目录'
-    subscribe_email: '订阅更新'
-    subscribe: '订阅'
-    adsense: '广告'
-    followit: 'follow.it'
-article:
-    created_at: '%s发表'
-    updated_at: '%s更新'
-    more: '阅读更多'
-    comments: '评论'
-    read_time: '%s读完'
-    word_count:
-        one: '大约%d个字'
-        other: '大约%d个字'
-    licensing:
-        author: '作者'
-        created_at: '发布于'
-        updated_at: '更新于'
-        licensed_under: '许可协议'
-donate:
-    title: '喜欢这篇文章？打赏一下作者吧'
-    afdian: '爱发电'
-    alipay: '支付宝'
-    wechat: '微信'
-    paypal: 'Paypal'
-    patreon: 'Patreon'
-    buymeacoffee: '送我杯咖啡'
-plugin:
-    backtotop: '回到顶端'
-    visit_count: '%s次访问'
-    visitor_count: '共%s个访客'
-    cookie_consent:
-      message: 此网站使用Cookie来改善您的体验。
-      dismiss: 知道了！
-      allow: 允许使用Cookie
-      deny: 拒绝
-      link: 了解更多
-      policy: Cookie政策
-search:
-    search: '搜索'
-    hint: '想要查找什么...'
-    no_result: '未找到搜索结果'
-    untitled: '(无标题)'
-    empty_preview: '(无内容预览)'
+# 在所有地方显示的 date 格式化
+date_format: "MMM DD, YYYY"
+
+global:
+    home: "首页"
+    categories: "分类"
+    category: "分类"
+    tags: "标签"
+    tag: "标签"
+    archives: "归档"
+    search: "搜索"
+    about: "关于"
+    author_picture: "作者的图片"
+    github: "GitHub"
+    stack_overflow: "Stack Overflow"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    google_plus: "Google Plus"
+    linkedin: "LinkedIn"
+    mail: "邮箱"
+    rss: "RSS"
+    share_on_facebook: "分享到 Facebook"
+    share_on_twitter: "分享到 Twitter"
+    share_on_google_plus: "分享到 Google+"
+    share_on_weibo: "分享到 Weibo"
+    share_on_qq: "分享到 QQ"
+    share_on_qzone: "分享到 Qzone"
+    share_on_renren: "分享到 Renren"
+    share_on_vk: "分享到 VK"
+    share_on_odnoklassniki: "分享到 Odnoklassniki"
+    search_category: "搜索分类"
+    search_tag: "搜索标签"
+    search_date: "搜索日期 (YYYY/MM/DD)"
+    posts_found:
+        zero: "没有找到文章"
+        one: "找到 1 篇文章"
+        other: "找到 {n} 篇文章"
+    categories_found:
+        zero: "没有找到分类"
+        one: "找到 1 个分类"
+        other: "找到 {n} 个分类"
+    tags_found:
+        zero: "没有找到标签"
+        one: "找到 1 个标签"
+        other: "找到 {n} 个标签"
+    read_more_about_author: "阅读有关作者的更多信息"
+    zoom_in_on_picture: "放大图片"
+    go_to_homepage: "去首页"
+    open_link: "打开链接"
+    open_post: "打开帖子"
+
+
+pagination:
+    page: "第 %d 页"
+    of: "共 %d 页"
+    newer_posts: "上一页"
+    older_posts: "下一页"
+    previous: "上一篇"
+    next: "下一篇"
+
+post:
+    no_title : "无标题"
+    categorized_in: "发布在"
+    tagged_in: "标签"
+    toc: "目录"
+    read_more: "阅读全文"
+    go_to_website: "转到"
+    comment_and_share: "评论和共享"
+    gallery: "画廊"
+    image:
+        one: "图片"
+        other: "%d 图片"
+
+author:
+    # 你的个人简介 (支持 Markdown 和 HTML 语法)
+    bio: ""
+    # 你的工作简介
+    job: ""
